@@ -14,10 +14,6 @@ const UserList =()=>
 	setUsers(result.data);
     } ;
    fetchData();},[]);
-	console.log(users)
-	
-	
-
 	return(
 		<div className='styleUsersList'>
          <h1>User's name</h1>
